@@ -1,0 +1,38 @@
+aplikasi to do list
+
+responsit dan fungsional melalui mobile
+
+fungsionalitas :
+- tambah agenda to do list
+- tampilin daftar to do list (dalam hari tertentu)
+- coret pekerjaan yang telah diselesaikan (dgn klik checkbox)
+- tampilin seluruh pekerjaan yang telah selesai (dengan list kolom DONE)
+- hapus seluruh to do list yang dibuat
+
+detail component :
+- profile, informasi nama dan jabatan
+- time, informasi waktu hari dan tanggal
+- text area, u menulis tugas
+- level prioritas, low medium dan high
+- button submit, u menampilkan informasi yang dituliskan di text area
+- kolom centang, u ceck status to do
+- to do, tabel to do list yang berisi tugas akan/ sedang dikerjakan
+- done, list to do yang sudah selesai
+- button delete all, hapus seluruh list to do yang dibuat
+- button delete, hapus salah satu task yang dibuat
+
+gambaran alur aplikasi :
+- buat to do list baru dengan ketik dalam kolom text area yang kosong yg disediakan
+- kemudian pilih kategori prioritas
+- button submit u tampilin to do yg telah diketik
+- saat diklik button submit, set awal waktu hari dan tanggal saat itu
+- kolom to do list terdapat icon checkbox disamping
+- icon checkbox dapat diklik dan to do tercoret
+- to do yg tercoret tertulis di list kolom done
+- user bisa hapus semua to do list atau satu satu dengan tombol delete all/ delete
+- tambahan, listing to do list overdue/ late
+
+kebutuhan user:
+- buat html, css, js aplikasi to do list u memantau aktivitas harian
+- cek kesalahan dan bug
+- hasil akhir program aplikasi to do list dengan ui yang optimal untuk mobile

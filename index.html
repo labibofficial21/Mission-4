@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>To Do List - By Labib</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<header>
+				<h1>To Do List - By Labib</h1>
+				<p>15 September 2026, 18.00</p>
+				<div class="profile">
+					<img src="images/Muhammad Labib.png" alt="" width="72" />
+					<div class="profile-card">
+						<h3>Muhammad Labib Mu'tashim</h3>
+						<p>27 Tahun</p>
+						<p>Programmer</p>
+						<p><b>IT Division</b></p>
+					</div>
+				</div>
+			</header>
+			<nav></nav>
+
+			<!-- section u pengisian form to do list -->
+			<section style="background-color: aquamarine">
+				<form action="" class="toDoForm" id="formData">
+					<label for="taskInput">Add Task </label>
+					<textarea name="" id="taskInput" placeholder="Please fill anything task"></textarea>
+
+					<div>
+						<label for="low"> <input type="radio" name="priority" id="low" value="low" />Low </label>
+						<label for="mid"> <input type="radio" name="priority" id="mid" value="mid" />Mid </label>
+						<label for="high"> <input type="radio" name="priority" id="high" value="high" />High </label>
+					</div>
+
+					<button type="submit" id="formSubmit">Add To do</button>
+				</form>
+			</section>
+
+			<!-- section u tampilan to do list -->
+			<section style="background-color: cornsilk">
+				<h3>Progressed Task</h3>
+				<div>
+					<table id="tableTask">
+						<tr>
+							<th>Checkbox</th>
+							<th>TaskID</th>
+							<th>Time Created</th>
+							<th>Time Updated</th>
+							<th>Details</th>
+							<th>Actions</th>
+						</tr>
+						<tr>
+							<td>N</td>
+							<td>293</td>
+							<td>03.00 20 sep 26</td>
+							<td>19.00 21 sep 26</td>
+							<td>mengerjakan tugas koding</td>
+							<td>hapus/ edit</td>
+						</tr>
+					</table>
+					<h5>Danger Area</h5>
+					<button type="button">Delete All Task</button>
+				</div>
+
+				<h3>Done Task</h3>
+				<table id="tableDone">
+					<tr>
+						<th>Checkbox</th>
+						<th>TaskID</th>
+						<th>Time Created</th>
+						<th>Time Updated</th>
+						<th>Details</th>
+						<th>Actions</th>
+					</tr>
+					<tr>
+						<td>N</td>
+						<td>293</td>
+						<td>03.00 20 sep 26</td>
+						<td>19.00 21 sep 26</td>
+						<td>mengerjakan tugas koding</td>
+						<td>hapus/ edit</td>
+					</tr>
+				</table>
+			</section>
+		</main>
+
+		<footer></footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
