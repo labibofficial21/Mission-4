@@ -10,7 +10,7 @@ body {
 	font-family: system-ui, -apple-system, sans-serif;
 	line-height: 1.5;
 	padding: clamp(10px, 3vw, 24px);
-	background-color: #f8fafc;
+	background-color: lightgray;
 	color: #1e293b;
 }
 
