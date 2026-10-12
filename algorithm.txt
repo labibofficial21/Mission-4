@@ -28,7 +28,7 @@ gambaran alur aplikasi :
 - saat diklik button submit, set awal waktu hari dan tanggal saat itu
 - kolom to do list terdapat icon checkbox disamping
 - icon checkbox dapat diklik dan to do tercoret
-- to do yg tercoret tertulis di list kolom done
+- to do yg tercoret tertulis di table kolom done
 - user bisa hapus semua to do list atau satu satu dengan tombol delete all/ delete
 - tambahan, listing to do list overdue/ late
 
